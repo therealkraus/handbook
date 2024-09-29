@@ -1,0 +1,42 @@
+site_name: Handbook
+site_author: Nikola Ilic
+repo_name: handbook
+repo_url: https://github.com/therealkraus/handbook
+docs_dir: ../docs # Path to the markdown files that will be used to generate the site
+
+theme:
+  name: material
+  icon:
+    logo: material/book-open-variant
+  language: en
+  features:
+    - content.tooltips
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: teal
+      accent: pink
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: teal
+      accent: pink
+
+nav:
+  - Get Started:
+      - getting-started.md
+      - CONTRIBUTING.md
+      - FAQ.md
