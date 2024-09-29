@@ -9,7 +9,7 @@ from flask import Flask, send_from_directory
 app = Flask(__name__, static_folder="site")
 
 
-@app.route("/", defaults={"url_path": ""})
+@app.route("/", defaults={"url_path": "getting-started"})
 @app.route("/<path:url_path>")
 def serve(url_path: str):
     static_folder_path = app.static_folder
