@@ -17,7 +17,7 @@ Thank you for considering contributing to **[Your Project Name]**! This document
 
 ## Code of Conduct
 
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for all contributors.
+Please read and follow our to ensure a welcoming and inclusive environment for all contributors.
 
 ---
 

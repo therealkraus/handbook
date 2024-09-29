@@ -14,6 +14,8 @@ bash scripts/venv.sh
 bash scripts/run.sh
 ```
 
+Go to `http://0.0.0.0:8787/getting-started/` in your browser.
+
 ## License
 
 This project is licensed under the MIT License.

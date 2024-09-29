@@ -163,3 +163,5 @@ cython_debug/
 
 # MkDocs documentation
 site*/
+
+.ds_store
